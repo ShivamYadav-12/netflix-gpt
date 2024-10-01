@@ -42,12 +42,11 @@ const Header = () => {
         return () => unsubscribe
     }, []);
     const handleGptSearchClick = () => {
-        console.log("first")
         dispatch(toggleGptSearchView())
     };
     const handleLangChanges = (e) => {
         dispatch(changeLang(e.target.value))
-        console.log(e.target.value)
+
     }
     return (
 
