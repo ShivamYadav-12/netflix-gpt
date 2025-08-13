@@ -63,8 +63,9 @@ export const Login = () => {
 
             <Header />
             <div className='absolute'>
-                <img src='https://assets.nflxext.com/ffe/siteui/vlv3/77d35039-751f-4c3e-9c8d-1240c1ca6188/cf244808-d722-428f-80a9-052acdf158ec/IN-en-20231106-popsignuptwoweeks-perspective_alpha_website_large.jpg'
+                <img src='https://assets.nflxext.com/ffe/siteui/vlv3/aa9edac4-a0e6-4f12-896e-32c518daec62/web/IN-en-20241223-TRIFECTA-perspective_1502c512-be5f-4f14-b21a-e3d75fe159ab_large.jpg'
                     alt='logo' />
+                
             </div>
 
             <form onSubmit={(e) => { e.preventDefault(); }} className=' w-3/12 absolute my-36 mx-auto left-0 right-0   p-12 bg-black text-white '>
